@@ -681,3 +681,26 @@
                   max: 2
     - type: StaticPrice
       price: 150
+
+- type: entity
+  name: swat shield
+  parent: [ BaseShield, BaseSecurityContraband ]
+  id: SwatShield
+  description: A shield that was used against the communist uprising in the sector
+  components:
+  - type: Sprite
+    state: swat-icon
+  - type: Item
+    heldPrefix: swat
+  - type: Blocking
+    passiveBlockModifier:
+      coefficients:
+        Heat: 3
+        Blunt: 3
+        Slash: 3
+        Piercing: 3
+    activeBlockModifier:
+      coefficients:
+        Heat: 20
+      flatReductions:
+        Heat: 5

@@ -168,6 +168,17 @@
     {
       "name": "teleriot-inhand-left-on",
       "directions": 4
+    },
+    {
+      "name": "swat-icon"
+    },
+    {
+      "name": "swat-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "swat-inhand-left",
+      "directions": 4
     }
   ]
 }
